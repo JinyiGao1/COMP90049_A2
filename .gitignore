@@ -1,0 +1,16 @@
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.DS_Store
+.venv/
+venv/
+env/
+*.pkl
+*.joblib
+*.log
+
+# Generated report exports
+report/final_report.pdf
+
+# Keep raw data for group collaboration for now.
+# Before final code submission, do not include data in the submitted ZIP unless instructed.
