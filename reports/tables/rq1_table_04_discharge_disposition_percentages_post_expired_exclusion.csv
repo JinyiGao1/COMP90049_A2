@@ -1,0 +1,16 @@
+discharge_disposition_group,readmitted,percent
+Home,NO,62.23
+Home health/IV,NO,11.19
+Hospice,NO,1.29
+Other/Unknown,NO,5.76
+Transferred facility,NO,19.53
+Home,>30,60.53
+Home health/IV,>30,15.19
+Hospice,>30,0.12
+Other/Unknown,>30,4.62
+Transferred facility,>30,19.54
+Home,<30,49.33
+Home health/IV,<30,14.55
+Hospice,<30,0.38
+Other/Unknown,<30,5.74
+Transferred facility,<30,30.0

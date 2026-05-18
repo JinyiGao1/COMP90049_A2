@@ -1,0 +1,13 @@
+admission_source_group,readmitted,percent
+Emergency Room,NO,52.57
+Other/Unknown,NO,6.85
+Referral,NO,32.53
+Transfer,NO,8.04
+Emergency Room,>30,60.96
+Other/Unknown,>30,7.2
+Referral,>30,28.16
+Transfer,>30,3.69
+Emergency Room,<30,59.17
+Other/Unknown,<30,6.54
+Referral,<30,28.79
+Transfer,<30,5.49

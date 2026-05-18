@@ -1,0 +1,3 @@
+column,cleaned_csv_status,modelling_status,reason
+encounter_id,retained for traceability,exclude from model features,unique encounter identifier with no predictive clinical meaning
+patient_nbr,retained for patient-aware splitting,use for split only; exclude from model features,patient identifier can cause leakage if used as a feature

@@ -1,0 +1,3 @@
+step,n_encounters,n_unique_patients
+Raw encounters,101766,71518
+After excluding expired discharges,100114,70439

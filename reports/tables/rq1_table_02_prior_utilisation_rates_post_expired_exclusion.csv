@@ -1,0 +1,10 @@
+readmitted,prior_use_type,percent
+NO,Any prior outpatient,12.596782680598363
+>30,Any prior outpatient,21.116894077929384
+<30,Any prior outpatient,20.084529365149248
+NO,Any prior emergency,7.441930391640983
+>30,Any prior emergency,15.020396680264453
+<30,Any prior emergency,16.641718763758035
+NO,Any prior inpatient,23.630008268811547
+>30,Any prior inpatient,42.81052187368125
+<30,Any prior inpatient,49.75785858941622

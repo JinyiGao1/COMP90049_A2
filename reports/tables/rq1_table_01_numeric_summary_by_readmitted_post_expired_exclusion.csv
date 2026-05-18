@@ -1,0 +1,8 @@
+measure,NO,>30,<30
+n encounters,"53,212","35,545","11,357"
+time_in_hospital,3 (2-6),4 (2-6),4 (2-6)
+num_medications,14 (10-20),15 (11-20),16 (11-21)
+number_diagnoses,8 (5-9),9 (6-9),9 (6-9)
+number_outpatient,0 (0-0),0 (0-0),0 (0-0)
+number_emergency,0 (0-0),0 (0-0),0 (0-0)
+number_inpatient,0 (0-0),0 (0-1),0 (0-2)
