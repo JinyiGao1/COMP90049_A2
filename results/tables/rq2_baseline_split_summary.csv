@@ -1,2 +1,2 @@
 split_method,cv_method,n_train_encounters,n_test_encounters,n_train_patients,n_test_patients,train_positive_rate,test_positive_rate,patient_overlap
-StratifiedGroupKFold first split,StratifiedGroupKFold,80239,19875,56417,14022,0.11362305113473498,0.11270440251572326,0
+StratifiedGroupKFold first split,StratifiedGroupKFold,80090,20024,56417,14022,0.11343488575352728,0.11346384338793448,0

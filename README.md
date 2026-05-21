@@ -16,11 +16,11 @@ RQ3: Are model performance and false-negative patterns consistent across clinica
 
 ```text
 data/raw/                 Original dataset files
-notebooks/                Exploratory analysis and experiments
 src/                      Reusable project code
-results/figures/          Generated plots
+reports/figures/          Generated report plots
 results/tables/           Generated result tables
-report/                   ACL report draft, figures, tables, and final PDF
+reports/                  Result drafts, figures, and report-ready outputs
+report/                   ACL report template and final PDF
 docs/                     Assignment specification, rubric, and group contract
 ```
 
@@ -45,18 +45,20 @@ data/raw/IDS_mapping.csv
 
 Dataset source: UCI Machine Learning Repository, Diabetes 130-US Hospitals for Years 1999-2008.
 
-## Suggested Notebook Order
+## Reproducing Main Outputs
 
-1. `notebooks/01_eda.ipynb`
-2. `notebooks/02_preprocessing_baseline.ipynb`
-3. `notebooks/03_classical_models.ipynb`
-4. `notebooks/04_neural_network.ipynb`
-5. `notebooks/05_error_subgroup_analysis.ipynb`
+Run the project scripts from the repository root after installing the dependencies:
+
+```bash
+PYTHONPATH=. python -m src.rq2_baseline
+python src.rq2_visualization.py
+python src.rq2_sensitivity_no_discharge.py
+python src/rq3_subgroup_analysis.py
+```
 
 ## Collaboration Notes
 
-- Keep generated figures in `results/figures/`.
+- Keep generated figures in `reports/figures/`.
 - Keep generated result tables in `results/tables/`.
 - Use clear commit messages describing the experiment or report section changed.
-- Do not overwrite another member's notebook without checking first.
 - The final submitted code should reproduce the main tables and figures used in the report.
