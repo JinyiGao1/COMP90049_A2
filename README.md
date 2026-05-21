@@ -20,7 +20,6 @@ src/                      Reusable project code
 reports/figures/          Generated report plots
 results/tables/           Generated result tables
 reports/                  Result drafts, figures, and report-ready outputs
-report/                   ACL report template and final PDF
 docs/                     Assignment specification, rubric, and group contract
 ```
 
@@ -50,6 +49,8 @@ Dataset source: UCI Machine Learning Repository, Diabetes 130-US Hospitals for Y
 Run the project scripts from the repository root after installing the dependencies:
 
 ```bash
+python src/data_cleaning.py
+python src/rq1_eda.py
 PYTHONPATH=. python -m src.rq2_baseline
 python src.rq2_visualization.py
 python src.rq2_sensitivity_no_discharge.py
