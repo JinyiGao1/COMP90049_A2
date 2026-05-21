@@ -258,6 +258,7 @@ def build_model_pipelines(feature_columns: list[str]) -> dict[str, Pipeline]:
                 (
                     "classifier",
                     LogisticRegression(
+                        C=0.01,
                         max_iter=1000,
                         solver="liblinear",
                         class_weight="balanced",
@@ -278,7 +279,7 @@ def build_model_pipelines(feature_columns: list[str]) -> dict[str, Pipeline]:
                 (
                     "classifier",
                     DecisionTreeClassifier(
-                        max_depth=12,
+                        max_depth=4,
                         min_samples_leaf=20,
                         class_weight="balanced",
                         random_state=RANDOM_STATE,
@@ -293,7 +294,7 @@ def build_model_pipelines(feature_columns: list[str]) -> dict[str, Pipeline]:
                     "classifier",
                     RandomForestClassifier(
                         n_estimators=200,
-                        max_depth=12,
+                        max_depth=6,
                         min_samples_leaf=10,
                         class_weight="balanced_subsample",
                         n_jobs=-1,
@@ -308,6 +309,7 @@ def build_model_pipelines(feature_columns: list[str]) -> dict[str, Pipeline]:
                 (
                     "classifier",
                     LinearSVC(
+                        C=0.001,
                         class_weight="balanced",
                         max_iter=5000,
                         random_state=RANDOM_STATE,
@@ -321,7 +323,7 @@ def build_model_pipelines(feature_columns: list[str]) -> dict[str, Pipeline]:
                 (
                     "classifier",
                     MLPClassifier(
-                        hidden_layer_sizes=(32,),
+                        hidden_layer_sizes=(64,),
                         batch_size=512,
                         early_stopping=True,
                         learning_rate_init=0.0005,

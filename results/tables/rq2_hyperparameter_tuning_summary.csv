@@ -1,0 +1,7 @@
+model,parameter,values_tried,selected_value,selected_pr_auc_mean,tuning_subset_n,tuning_subset_positive_rate
+Logistic Regression,C,"0.01, 0.1, 1.0, 10.0",0.01,0.21443986482868804,16053,0.11798417741232169
+Linear SVM,C,"0.001, 0.01, 0.1, 1.0",0.001,0.21224669168652277,16053,0.11798417741232169
+Multinomial Naive Bayes,alpha,"0.1, 1.0, 5.0, 10.0",1.0,0.1906496102997278,16053,0.11798417741232169
+Decision Tree,max_depth,"4, 8, 12, 20",4,0.18289575383465673,16053,0.11798417741232169
+Random Forest,max_depth,"6, 12, 20",6,0.21834997256354338,16053,0.11798417741232169
+MLP,hidden_layer_sizes,"(16,), (32,), (64,)","(64,)",0.2022932647166099,16053,0.11798417741232169
