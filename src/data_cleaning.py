@@ -8,7 +8,7 @@ import pandas as pd
 
 
 PROJECT_ROOT = Path(__file__).resolve().parents[1]
-RAW_DIR = PROJECT_ROOT / "diabetes+130-us+hospitals+for+years+1999-2008"
+RAW_DIR = PROJECT_ROOT / "data" / "raw"
 RAW_DATA_PATH = RAW_DIR / "diabetic_data.csv"
 MAPPING_PATH = RAW_DIR / "IDS_mapping.csv"
 PROCESSED_DIR = PROJECT_ROOT / "data" / "processed"
